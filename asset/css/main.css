@@ -1,0 +1,28 @@
+/*font-family: 'Prompt', sans-serif;
+font-family: 'Baloo Paaji', cursive;*/
+
+/*MENU*/
+.menu{
+	background-color: #2196f3;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 10px;
+}
+.logo{
+	color: #fff;
+	font-family: 'Baloo Paaji', cursive;
+	margin: 0;
+}
+.logo span{
+	font-family: 'Baloo Paaji', cursive;
+	color: #f48fb1;
+}
+.menu ul li a:hover{
+	background-color: #f48fb1;
+}
