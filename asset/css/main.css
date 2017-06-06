@@ -1,5 +1,11 @@
 /*font-family: 'Prompt', sans-serif;
 font-family: 'Baloo Paaji', cursive;*/
+/*generales*/
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Baloo Paaji', cursive;
+		color: #f48fb1;
+		margin-top: 0;
+	}
 
 /*MENU*/
 .menu{
@@ -15,14 +21,59 @@ font-family: 'Baloo Paaji', cursive;*/
 	padding: 20px 10px;
 }
 .logo{
-	color: #fff;
-	font-family: 'Baloo Paaji', cursive;
 	margin: 0;
 }
 .logo span{
+	color: #fff;
 	font-family: 'Baloo Paaji', cursive;
-	color: #f48fb1;
 }
 .menu ul li a:hover{
 	background-color: #f48fb1;
 }
+
+/*Header*/
+header {
+	background-image:  url(../img/img-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.soft-container{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 80px;
+}
+.soft-bunny{
+	background-color: rgba(33,150,243, 0.7);
+	padding: 30px;
+}
+.soft-bunny p{
+	color: #fff;
+	font-style: italic;
+}
+.soft-bunny h1{
+	font-size: 60px;
+}
+
+/*Bunny Tales*/
+.bunny-tales{
+	background-color: #fff;
+}
+.tales{
+	background-color: #2196f3;
+	text-align: center;
+	height: 370px;
+}
+.tales p{
+	color: #fff;
+	font-size: 12px;
+	padding: 15px;
+	margin-top: 0;
+}
+.tales h4{
+	padding: 10px;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+/*News*/
