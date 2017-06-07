@@ -4,7 +4,9 @@ font-family: 'Baloo Paaji', cursive;*/
 	h1, h2, h3, h4, h5, h6{
 		font-family: 'Baloo Paaji', cursive;
 		color: #f48fb1;
-		margin-top: 0;
+		margin: 0;
+		padding: 20px 20px 0px 20px;
+		text-align: center;
 	}
 
 /*MENU*/
@@ -22,6 +24,7 @@ font-family: 'Baloo Paaji', cursive;*/
 }
 .logo{
 	margin: 0;
+	padding: 0;
 }
 .logo span{
 	color: #fff;
@@ -77,3 +80,80 @@ header {
 }
 
 /*News*/
+.news{
+	background-color: #2196f3;
+	padding: 10px 5px; 	
+	box-sizing: border-box;
+}
+.right-article p{
+	font-size: 15px;
+	font-weight: 400;
+	padding: 10px 20px;
+	margin: 0;
+}
+.year{
+	color: black;
+	font-family: 'Baloo Paaji', cursive;
+	margin: 0;
+}
+.social-ntw{
+	text-align: center;
+}
+.social-ntw i{
+	color: #2196f3;
+	background-color: #fff;
+	border-radius: 100%;
+	padding: 10px;
+	margin: 0 5px 10px;
+}
+/*left-article section*/
+.search{
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #E1F3E9;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.search input{
+	width: 95%;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+}
+.find, .love, .right-article{
+background-color: #E1F3E9;
+}
+.find{
+	margin-bottom: 20px;
+}
+
+.find p , .love p{
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-weight: 400;
+}
+/*Footer*/
+.footer-bunny{
+	margin-top: 20px;
+}
+.bunnies{
+	background-image: url(../img/bunny-head.png);
+	background-repeat: repeat;
+	background-size: contain;
+	height: 100px;
+}
+.real-footer{
+	border-top: 4px solid #f48fb1;
+	background-color: #2196f3;
+	padding: 10px 0px;
+	text-align: center;
+}
+.real-footer p{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+}
