@@ -159,3 +159,7 @@ background-color: #E1F3E9;
 	font-size: 15px;
 	font-weight: 400;
 }
+
+.hidden{
+	display: none;
+}

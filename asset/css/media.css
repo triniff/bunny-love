@@ -2,10 +2,8 @@
 	.left-article{
 		display: none;
 	}
-	.col-8-sm, .col-3-sm {
+	.col-8-sm, .col-3-sm, .col-9-sm {
 		width: 95%;
-				margin: 0 auto;
-				text-align: center;
 	}
 	.bunny-tales{
 		padding: 20px 25px 20px 5px;
@@ -18,5 +16,41 @@
 	.tales p{
 		font-size: 18px;
 		font-weight: 400;
+	}
+	.menu{
+		width: 100%;
+	}
+	.logo{
+		float: left;
+	}
+	.show{
+		display: none;
+	}
+	.hidden{
+		display: inline-block;
+		float: right;
+		color: #fff;
+		font-size: 30px;
+	}
+
+	/*Adaptando menu*/
+	.menu ul{
+		margin: 0;
+		padding: 0;
+	}
+	.menu ul li{
+		width: 100%;
+		border-left: 5px solid #f48fb1;
+		margin-bottom: 10px;
+	}
+	.menu ul li a{
+		font-weight: 400;
+	}
+	.menu ul li:hover{
+		background-color: #f48fb1;
+	}
+	
+	.menu ul li a:hover{
+		color: #fff;
 	}
 }
