@@ -1,0 +1,22 @@
+@media (max-width: 800px) and (min-width: 1px){
+	.left-article{
+		display: none;
+	}
+	.col-8-sm, .col-3-sm {
+		width: 95%;
+				margin: 0 auto;
+				text-align: center;
+	}
+	.bunny-tales{
+		padding: 20px 25px 20px 5px;
+		box-sizing: border-box;
+	}
+	.tales{
+		width: 100%;
+		height: auto;
+	}
+	.tales p{
+		font-size: 18px;
+		font-weight: 400;
+	}
+}
